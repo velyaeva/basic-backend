@@ -7,4 +7,5 @@ COPY db db
 COPY project project
 COPY main.py .
 
-CMD [ "python", "./main.py", "0.0.0.0", "5000"]
+CMD [ "python", "./main.py", "127.0.0.1", "8080"]
+
